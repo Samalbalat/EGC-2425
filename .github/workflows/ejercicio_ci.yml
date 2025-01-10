@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - config/ci
+      - main
 
 jobs:
   outdated_dependencies:
